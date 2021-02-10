@@ -21,17 +21,27 @@ public class Main {
         studentNames[6] = "Eileen";
         studentNames[7] = "Ella";
         studentNames[8] = "Ellis";
+        studentNames[9] = "Nico";
         studentNames[10] = "Peter";
         studentNames[11] = "Pippa";
-        studentNames[5] = "Edwin";
-        studentNames[9] = "Nico";
+        studentNames[12] = "Skye";
         studentNames[13] = "Trevor";
         studentNames[14] = "Tucker";
-        studentNames[12] = "Skye";
-
         //StdOut.println(Arrays.toString(studentNames));
-
         return studentNames;
     }
 
+    public static void main(String[] args) {
+        int x;
+        x = 5;
+        int y = 0;
+        y /= x;
+       System.out.println(y);
+
+    }
+
+    {
+
+
+    }
 }
