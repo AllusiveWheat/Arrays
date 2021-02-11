@@ -1,7 +1,5 @@
 package com.company;
-
 import java.util.Arrays;
-
 public class Loop_Sort {
     public static void main(String[] args) {
     int[] intArray = {69,67,454,23254,454543,23432424,11342343};
