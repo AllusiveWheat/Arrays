@@ -10,8 +10,10 @@ public class Main {
         System.out.printf("Original Array : %s" , Arrays.toString((IntArray)));
         // Sorted Using Arrays.sort
         Arrays.sort(IntArray);
-        System.out.printf("Sorted Array : %s" , Arrays.toString((IntArray)));
+        System.out.printf(" Sorted Array : %s" , Arrays.toString((IntArray)));
+        // Reversed Using Collections
         Arrays.sort(IntArray , Collections.reverseOrder());
-        System.out.printf(" Reversed Sort Array : %s" , Arrays.toString((IntArray)));
+        System.out.println(" Reversed Sorted Array" + Arrays.toString((IntArray)));
+
     }
 }

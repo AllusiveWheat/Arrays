@@ -10,9 +10,10 @@ public class Loop_Sort {
         for (int i = 0; i <intArray.length; i++) {
             System.out.print(intArray[i] + " ");
         }
+
         // Sort  Array in  Ascending Order
-        for(int i  = 0; i <intArray.length; i++) {
-            for (int  j = i+1;  j< intArray.length; j++) {
+        for (int i  = 0; i <intArray.length; i++) {
+            for (int  j = i+1; j < intArray.length; j++) {
 
                 if(intArray[i] > intArray[j]) {
                     temp  = intArray[i];
@@ -25,8 +26,6 @@ public class Loop_Sort {
        System.out.println("Array  sorted  in ascending order ");
         for(int i = 0; i<intArray.length; i++){
             System.out.print(intArray[i] + " ");
-
-
         }
     }
 }
