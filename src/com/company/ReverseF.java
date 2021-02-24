@@ -1,6 +1,5 @@
 package com.company;
-
-
+import java.util.*;
 public class ReverseF {
 
     public static int[] reverseArray(int[] x) {
@@ -11,10 +10,7 @@ public class ReverseF {
             //Or can you print in here?
         }
         return x;
-
-
     }
-
     public static void main(String[] args) {
         //Print  in here the array from ^
     }
